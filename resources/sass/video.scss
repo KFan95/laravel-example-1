@@ -1,0 +1,33 @@
+.video-item {
+  @media only screen and (max-width: 2048px) {
+    width: percentage(1/8);
+  }
+
+  @media only screen and (max-width: 1536px) {
+    width: percentage(1/6);
+  }
+
+  @media only screen and (max-width: 1024px) {
+    width: percentage(1/4);
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: percentage(1/3);
+  }
+
+  @media only screen and (max-width: 512px) {
+    width: percentage(1/2);
+  }
+
+  @media only screen and (max-width: 256px) {
+    width: 100%;
+  }
+
+  .video-image-wrap, .video-image {
+    height: 100px;
+  }
+
+  .video-image-wrap {
+    background: rgba(128,128,128,0.3);
+  }
+}
